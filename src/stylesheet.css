@@ -1,0 +1,357 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+h2 {
+	font-family: Oxygen;
+}
+
+hr {
+	background-color: #8FCBCC;
+	height: 1px;
+	border: 0;
+	opacity: .2;
+	width: 65%;
+}
+
+.grey-background {
+	background-color: #f5f5f5;
+}
+
+.grey-font {
+	color: darkgrey;
+}
+
+.parallaxPadding {
+	padding: 1% 1%;
+}
+
+.fading-in h1{
+font-family: "Dancing Script";
+padding-bottom: .5em;
+padding-top: .5em;
+-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+     -o-animation: fadein 4s; /* Opera < 12.1 */
+        animation: fadein 4s;
+}
+
+.thumbnail h4{
+	font-family: Oxygen;
+	color: #000;
+}
+
+.equal-height img{
+	min-height:250px;
+	max-height:250px;
+	width: 100%;
+	margin: 1em 0 1em 0;
+}
+
+.skills-padding{
+	padding: 3% 3% 3% 3%;
+}
+
+.skills-padding:hover{
+	border-color: #D3D3D3;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3% 3%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-border{
+	border-color: #D3D3D3;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1em 1em 1em 1em;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-border {
+	border-color: #D3D3D3;
+	border-style: solid;
+	border-width: 1px;
+	padding: .5em .5em .5em .5em;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.hero-button {
+	 border-radius: 20px;
+	 padding: 1em 3em 1em 3em;
+	 box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+	background-color: #fff;
+	padding: 1% 1% 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	text-align: center;
+	color: grey;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+	text-align: center;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D9d9d9;
+	background-color: #8FCBCC;
+	color: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand-logo{
+	max-height: 60px;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1{
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 3em 0 3em 0;
+}
+
+.padding img{
+	width: 100%;
+}
+
+.go-left {
+	float: left;
+}
+
+.go-right {
+	float: right;
+}
+
+.padding-percentage {
+	padding: 3% 3% 3% 3%;
+}
+
+.btn-landing {
+	border-color: #d5d5d5;
+	background-color: #fff;
+	color: #696969;
+	margin-left: 7px;
+	margin-right: 7px;
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+     -o-animation: fadein 4s; /* Opera < 12.1 */
+        animation: fadein 4s;
+}
+
+.btn-landing:hover{
+	border-color: #696969;
+	background-color: #8FCBCC;
+	color: #fff;
+}
+
+#derrick{
+	/*background : url(../../react-client/dist/images/mountain.jpeg) no-repeat center fixed;*/
+	display: table;
+	height: 700px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+} 
+
+#home{
+	/*background : url(../../react-client/dist/images/desk.jpeg) no-repeat center fixed;*/
+	display: table;
+	height: 900px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+	color: #8FCBCC;
+	padding: 5% 5% 5% 5%;
+    display: inline-block;
+    width: 100%;
+}
+
+i {
+	text-align: center;
+}
+
+.footer-bottom .fa {
+	padding: 15px;
+	font-size: 30px;
+	color: #fff;
+	display: inline;
+}
+
+.footer-bottom .fa:hover{
+	color: #8FCBCC;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+.call-to-action {
+	display: table;
+	position: relative;
+	background-size: cover;
+	background-color: #8FCBCC;
+	height: 400px;
+	width: 100%;
+}
+
+footer {
+	color: white;
+	width: 100%;
+	background-color: #000;
+	padding: 2em 2em 2em 2em;
+}
+
+.skinny {
+	font-weight: 300;
+	opacity: .7;
+}
+
+.shadow-border:hover{
+	box-shadow: 0 0 6px 5px rgba(0,154,154, .5);
+}
+
+.dancing{
+	font-family: "Dancing Script";
+}
+
+.badge-pill{
+	margin-right: .2em;
+	display: inline-block;
+}
+
+#badge-pill{
+	margin-right: .2em;
+	display: inline-block;
+}
+
+.about-summary{
+	padding: 1.5% 3%;
+}
+
+.white-font {
+	color: white;
+}
+
+.about-container {
+	display: table;
+	width: 100%;
+}
+
+.about {
+	display: table-cell;
+}
+
+.label-primary {
+	background-color: #8FCBCC;
+	color: white;
+}
+
+.label-info, .label-danger {
+	background-color: #8FCBCC;
+	color: #595959;
+}
+
+.label-warning {
+	border-style: solid;
+	border-width: .5px;
+	border-color: #D3D3D3;
+	background-color: white;
+	color: #8FCBCC;
+}
+
+.call-to-action-button {
+	border-radius: 20px;
+	padding: 1em 3em 1em 3em;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.call-to-action-button:hover{
+	background-color: black;
+	border-radius: 20px;
+	padding: 1em 3em 1em 3em;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+white-line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0 2em 0;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 768px) {
+	.call-to-action-button{
+		margin-top: 1em;
+	}
+
+	.landing-text h1 {
+		font-size: 3em;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+	#derrick {
+		height: 250px;
+	}
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+}
